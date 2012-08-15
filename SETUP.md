@@ -8,7 +8,15 @@ This project uses some specific modules to run monitoring tests and unittests an
 + MySQLdb: [Download here](http://pypi.python.org/pypi/MySQL-python/)
 
 *For unittest*
++ Python: version 2.5.x or above
 + nosetest: On most UNIX-like systems, you probably need to run these commands as root or using `sudo`
-`$ easy_install selenose`
+`$ easy_install nose`
+	
 	Or
-`$ pip install selenose`	(If you have pip installed)
+
+`$ pip install nose`	(If you have pip installed)
+
+Usage
+------
+`$ nosetests PATH/TO/YOUR/TEST`
+	
