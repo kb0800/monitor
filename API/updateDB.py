@@ -1,3 +1,8 @@
+"""""""
+@Author:        Max Hsieh
+@Date:          08/16/2012
+"""""""
+
 from time import localtime, strftime
 from configobj import ConfigObj
 import MySQLdb, sys

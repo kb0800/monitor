@@ -1,3 +1,8 @@
+"""""""
+@Author: 	Max Hsieh
+@Date:		08/16/2012
+"""""""
+
 import inspect, os, sys
 # Append the test directory to system's path
 sys.path.insert(0, sys.argv[1])

@@ -1,3 +1,8 @@
+"""""""
+@Author:        Max Hsieh
+@Date:          08/16/2012
+"""""""
+
 # This class supports two different testing environments: unittest and monitoring
 class Asserter:
         env = 'unittest'

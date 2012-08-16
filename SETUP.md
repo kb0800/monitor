@@ -11,11 +11,11 @@ This project uses some specific modules to run monitoring tests and unittests an
 + Python: version 2.5.x or above
 + nosetest: On most UNIX-like systems, you probably need to run these commands as root or using `sudo`
 
-	$ easy_install nose
+`$ easy_install nose`
 	
 Or if you have pip installed
 
-	$ pip install nose
+`$ pip install nose`
 
 Usage
 ------

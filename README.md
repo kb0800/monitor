@@ -45,9 +45,13 @@ How the daemon works
 Instruction
 -----------
 
+Database setup:
++ Modify the `db_user.cfg.sample` script. Change the credentials to your own DB's login info.
+
 On command prompt, simply type `python daemon.py PATH/TO/YOUR/TESTS` to begin monitoring the APIs
 + $ `python daemon.py sample/`
-If you want to do unittest to a particular test case, run nosetests instead 
-(You need to have nose installed).
+
+If you want to run unittest on a particular test case, run nosetests instead (You need to have nose installed).
 + $ `nosetests sample/test_test.py`
 
++ You are welcome to modify the files in this repository to best suit your needs.

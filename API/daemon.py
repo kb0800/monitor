@@ -1,3 +1,8 @@
+"""""""
+@Author: 	Max Hsieh
+@Date:		08/16/2012
+"""""""
+
 from search import *
 from updateDB import *
 import os, sys, time
